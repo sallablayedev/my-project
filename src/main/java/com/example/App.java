@@ -1,10 +1,10 @@
 package com.example;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import javax.annotation.PostConstruct;
 
 @SpringBootApplication
 public class App {
